@@ -1,0 +1,17 @@
+train: BAC_HIEN_CONSTRUCTION_SAFETY_2024.v8i.yolov11/train/images
+val: BAC_HIEN_CONSTRUCTION_SAFETY_2024.v8i.yolov11/valid/images
+train_labels: BAC_HIEN_CONSTRUCTION_SAFETY_2024.v8i.yolov11/train/labels
+val_labels: BAC_HIEN_CONSTRUCTION_SAFETY_2024.v8i.yolov11/valid/labels
+
+# Add the number of classes
+nc: 68  # Updated to match the number of class names
+
+# Add the class names
+names: ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
+        "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
+        "dog", "horse", "sheep", "cow", "elephant", "bear", "zebra", "giraffe", "backpack", "umbrella",
+        "handbag", "tie", "suitcase", "frisbee", "skis", "snowboard", "sports ball", "kite", "baseball bat",
+        "baseball glove", "skateboard", "surfboard", "tennis racket", "bottle", "wine glass", "cup",
+        "fork", "knife", "spoon", "bowl", "banana", "apple", "sandwich", "orange", "broccoli",
+        "carrot", "hot dog", "pizza", "donut", "cake", "chair", "sofa", "pottedplant", "bed",
+        "diningtable", "toilet", "tvmonitor", "laptop", "mouse", "remote", "keyboard", "cell phone"]
