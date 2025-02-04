@@ -6,7 +6,7 @@ export const AboutButton = (props: { onClick?: () => void }) => {
       className="font-extrabold italic hover:text-gray-600 rounded-md p-1 flex flex-row gap-1 justify-center items-center mr-4"
       onClick={props.onClick}
     >
-      KibsiX
+      AI Vision Builder
     </button>
   );
 };
